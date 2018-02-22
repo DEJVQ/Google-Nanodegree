@@ -2,7 +2,7 @@
 Google Nanodegree program with Udacity
 
 ## Project 1 on Udacity - Animal Trading Card
-Done with the pure HTML / CSS project shows the card with favourite animal and short description about the dog.
+Done with the pure `HTML / CSS` project shows the card of favourite animal and short description about the dog.
 
 Meets the requirments from Udacity:
 
@@ -13,7 +13,8 @@ Meets the requirments from Udacity:
     -   border around the animal's information
     -   spacing between the animal's name, image, and information (you will need to use the property padding)
     
+Image has the valid alternative text for _browsers search optimization_
+    
 ```sh
     <img id="bulldog-image" src="bulldog.jpg" alt="Bulldog photo">
 ```
-Image has the valid alternative text for `browsers search optimization`
