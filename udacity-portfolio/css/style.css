@@ -1,0 +1,269 @@
+h1, h2, h3, h4, h5, p {
+    color: #2d3c49;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+
+p {
+    margin: 0;
+    padding: 0;
+    text-align: justify !important;
+
+}
+
+
+a {
+    transition: 0.2s;
+    display: block;
+}
+
+
+section {
+    margin-top: 4%;
+}
+
+hr {
+    border: 2px solid #7d97ad;
+    background-color: #7d97ad;
+    width: 0%;
+    transition: 1s;
+}
+
+
+footer {
+    height: 200px;
+}
+
+
+/* Header */
+.logo {
+    width: 100px;
+    margin-top: 30px;
+}
+
+
+.textHeader {
+    margin: 30px;
+    margin-top: 55px;
+    text-align: right;
+}
+
+
+.mainHeader div div div {
+    text-align: center;
+}
+
+/* About Me */
+.textAboutMe {
+    margin-bottom: 20px;
+}
+
+
+.photoMe {
+    width: 80%;
+    margin-top: -70px;
+    transition: 0.5s;
+}
+
+/* Skills */
+.progress {
+    margin: 20px;
+    margin-top: 0;
+}
+
+
+.progress-bar {
+    transition: 0.7s;
+    width: 0%;
+}
+
+.skill {
+    font-size: 1.1em;
+    text-align: center;
+    color: #7d97ad;
+    text-transform: uppercase;
+}
+
+
+
+/* Projects */
+.project {
+    text-align: center;
+    margin-top: 50px;
+    padding: 0;
+    position: relative;
+    height: 200px;
+    border: 3px solid #eee;
+}
+
+
+.project:hover .websites {
+    filter: brightness(1.02)
+}
+
+
+.projectDescription {
+    padding-top: 26%;
+    font-size: 1.25em;
+    position: absolute;
+    top: 100px;
+    left: 0; 
+    right: 0; 
+    margin: 0 auto;
+    transition: 0.36s ease-out;
+    opacity: 0;
+    z-index: 100;
+}
+
+
+.projectDescriptionBackground {
+    position: absolute;
+    top: 0px;
+    left: 0; 
+    right: 0; 
+    margin: 0 auto;
+    transition: 0.36s ease-out;
+    opacity: 0;
+    background-color: #2d3c49;
+    width: 100%;
+    height: 49%;
+    z-index: 10;
+}
+
+
+.project:hover .projectDescription {
+    opacity: 1;
+    top: 0;
+}
+
+
+.project:hover .projectDescriptionBackground {
+    opacity: 1;
+    top: 25.5%;
+}
+
+
+.projectDescription a:hover {
+    text-decoration: none;
+    transform: scale(0.90) !important;
+}
+
+
+.project p {
+    text-align: center;
+    color: #02b3e4;
+}
+.project a {
+    padding-top: 0;
+    color: #fff;
+}
+
+
+.websites {
+    transition: 0.2s;
+}
+
+
+.website1 {
+    background: url("/img/website-1.JPG");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+.website2 {
+    background: url("/img/website-2.JPG");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+.website3 {
+    background: url("/img/website-3.JPG");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Contact Section */
+.contactContent {
+    padding: 50px;
+    font-size: 1.2em;
+}
+
+
+.contactContent a {
+    color: #02b3e4;
+    transition: 0.2s;
+}
+
+
+.contactContent a:hover {
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+
+/* Section Header Text Decoration */
+.decoration {
+    position: relative;
+    transition: 0.2s;
+}
+
+
+.decoration:after {
+    content: "";
+    position: absolute;
+    background-color: #7d97ad;
+    width: 0%;
+    height: 3px;
+    bottom: -7px;
+    left: 0px;
+    transition: 0.2s;
+}
+
+section:hover .decoration:after {
+    width: 36px;
+}
+
+
+/* Media mobile */
+@media screen and (max-width: 690px) {
+    .textHeader {
+        margin: 30px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    
+    .logo {
+        margin-left: 40% !important;
+    }
+    
+    
+    .photoMe {
+        width: 70% !important;
+        margin: 30px;
+    }
+    
+    
+    .project {
+        height: 360px;
+    }
+    
+    .project:hover .projectDescription {
+        opacity: 1;
+        top: 16%;
+    }
+}
+
+
+@media screen and (min-width: 691px) and (max-width: 767px) {
+    .project {
+        height: 420px;
+    }
+}
