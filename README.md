@@ -18,3 +18,6 @@ Image has the valid alternative text for _browsers search optimization_
 ```sh
     <img id="bulldog-image" src="bulldog.jpg" alt="Bulldog photo">
 ```
+
+## Project 2 on Udacity - Personal Porfolio
+Done with Framework Bootstrap 4 and HTML/CSS/jQuery. Full responsive and fast loading.
