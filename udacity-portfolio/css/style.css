@@ -62,7 +62,7 @@ footer {
 
 .photoMe {
     width: 80%;
-    margin-top: -70px;
+    margin-top: -5%;
     transition: 0.5s;
 }
 
@@ -151,7 +151,7 @@ footer {
 
 
 .project p {
-    text-align: center;
+    text-align: center !important;
     color: #02b3e4;
 }
 .project a {
@@ -227,12 +227,15 @@ footer {
 }
 
 section:hover .decoration:after {
-    width: 36px;
+    width: 70px;
 }
 
 
 /* Media mobile */
 @media screen and (max-width: 690px) {
+    section {
+        margin-top: 16%;
+    }
     .textHeader {
         margin: 30px;
         margin-top: 10px;
@@ -242,6 +245,10 @@ section:hover .decoration:after {
     
     .logo {
         margin-left: 40% !important;
+    }
+    
+    .photoContainer {
+        text-align: center;
     }
     
     
